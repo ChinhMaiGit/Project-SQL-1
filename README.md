@@ -18,3 +18,31 @@ After a customer purchases the product from Olist Store a seller gets notified t
 **Acknowledgements**
 
 Thanks to Olist for releasing this dataset.
+
+# Executive summary
+
+This project establishes a data schema containing all the data in the **Olist** set following the given structure of the publisher. The original data stored in separate csv files have been imported to separate tables in a schema with proper data type assigned to all variables. The project achieves the following points:
+
+* Creating a schema to store data tables replicating the data structure given by the publisher of the Olist data set
+* Creating tables following a logical order so that all the connections among the tables are properly preserved
+* Importing the data simultaneously with the table creations and adjusting the data when necessary
+* Assigning suitable data types to the given data, which contain three main types: integer, numeric, text, and timestamp
+* Checking the result by using the schema information table
+* Constructing the entity relationship diagram for comparing the structure of the imported and the original databased
+
+The data is now ready to be extracted and manipulated using SQL queries. The next steps might be exploratory analysis and data visualization so that more insights can be gained for further investigations.
+
+## Detailed documentation
+
+For detailed documentation, please refer to the Github repository using the following link
+
+[SQL Project 1 Github](https://github.com/ChinhMaiGit/Project-SQL-1/)
+
+or access the analysis workbook directly
+
+[SQL project 1 Workbook](/html/project1.html)
+
+
+## References
+
+1. [Olist public data on Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
